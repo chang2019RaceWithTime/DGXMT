@@ -1,0 +1,14 @@
+<view class="table">
+  <view class="tr1 bg-w">
+    <view class="th">主题</view>
+    <view class="th">时间</view>
+    <view class="th ">负责人</view>
+  </view>
+  <!-- <block wx:for="{{excel}}" wx:key="{{index}}" bindtap="click"> -->
+    <view class="tr" bindtap="click" wx:for="{{excel}}" wx:key="{{index}}" data-index="{{index}}">
+      <view class="td">{{item.zhuti}}</view>
+      <view class="td">{{item.shijian}}</view>
+      <view class="td">{{item.renyuan}}</view>
+    </view>
+  <!-- </block> -->
+</view>

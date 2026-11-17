@@ -1,0 +1,30 @@
+<view style="">
+<form bindsubmit="submit" >
+  <view class="page-section">
+    <view class="weui-cells__title">姓名</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  placeholder="请输入姓名"  name='name'/>
+      </view>
+    </view>
+  </view>
+ <!--账号-->
+
+ 
+ 
+ <!--密码-->
+  <view class="page-section">
+    <view class="weui-cells__title">留言</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  placeholder="请输入留言"  name='note'/>
+      </view>
+    </view>
+  </view>
+ 
+ <!--按钮-->
+ <view class="loginBtnView"> 
+  <button form-type="submit" class="loginBtn" type="primary" >提交</button> 
+ </view>
+</form>  </view>
+

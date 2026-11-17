@@ -1,0 +1,16 @@
+<view class="table">
+  <view class="tr1 bg-w">
+    <view class="th">课程名称</view>
+    <view class="th">考试时间</view>
+    <view class="th ">考场</view>
+    <view class="th ">座位号</view>
+  </view>
+  <block wx:for="{{exam}}" wx:key="{{index}}">
+    <view class="tr" >
+      <view class="td">{{item.name}}</view>
+      <view class="td">{{item.time}}</view>
+      <view class="td">{{item.kaochang}}</view>
+      <view class="td">{{item.zuoweihao}}</view> 
+    </view>
+  </block>
+</view> 

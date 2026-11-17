@@ -1,0 +1,9 @@
+{
+  "name": "dgxmt-miniprogram",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DGXMT 校园小程序",
+  "dependencies": {
+    "weui-miniprogram": "1.5.6"
+  }
+}

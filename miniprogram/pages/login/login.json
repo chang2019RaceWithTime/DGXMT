@@ -1,0 +1,15 @@
+{
+  
+    "navigationBarTitleText": "登录",
+    "navigationBarBackgroundColor": "#3cb056",
+    "navigationStyle": "custom",
+
+    "usingComponents": {
+        "mp-dialog": "weui-miniprogram/dialog/dialog",
+        "mp-cells": "weui-miniprogram/cells/cells",
+         "mp-cell": "weui-miniprogram/cell/cell"
+      }
+   
+    }
+    
+  

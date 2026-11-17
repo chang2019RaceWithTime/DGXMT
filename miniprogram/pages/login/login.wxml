@@ -1,0 +1,59 @@
+<view style="height:500rpx" class="swiperr">
+    <swiper style="height:490rpx"  class="swiper" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{4000}}" duration="{{500}}" circular="{{true}}" indicator-active-color="#3cb056" indicator-color="3cb056" easing-function="easeInOutCubic" >
+      <block >
+        <swiper-item>
+           <image src="../image/xinmeiti.jpg" class="img" style="width:100%"/>
+        </swiper-item>
+        <block >
+        <swiper-item>
+           <image src="../image/xinmeiti.jpg" class="img" style="width:100%"/>
+        </swiper-item>
+      </block>
+      </block>
+    </swiper>  </view>
+<view  class="container" wx:if="{{login==false}}"> 
+ <view class="login-from"> 
+ <form bindsubmit="submit">
+ <!--账号-->
+ <view class="inputView"> 
+  <label class="loginLab">学号</label> 
+  <input class="inputText" placeholder="请输入学号" name='usrname' /> 
+ </view> 
+ <view class="line"></view> 
+ 
+ <!--密码-->
+ <view class="inputView"> 
+  <label class="loginLab">密码</label> 
+  <input class="inputText" password="true" placeholder="请输入教务处密码"   name='password' /> 
+ </view> 
+ 
+ <!--按钮-->
+ <view class="loginBtnView"> 
+  <button form-type="submit" class="loginBtn" type="primary" >登录</button> 
+ </view>
+</form> 
+ </view> 
+</view>
+<view wx:if="{{login}}" >
+ <view class="touxiang">  <open-data type="userAvatarUrl"></open-data>
+
+ </view>
+ <view class="list"  style="margin-top:180rpx">
+ <mp-cells style="height:300rpx;line-height:25%" >
+            <mp-cell link hover value="联系方式"  style="font-size:30rpx;line-height:25%;border-radius: 8px;" bindtap="QQ">
+                <image slot="title" src="../image/qq.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </mp-cell>
+            <mp-cell link hover value="关于小程序" style="font-size:30rpx;line-height:25%;" >
+                <image slot="icon" src='../image/lianxi.png' style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </mp-cell>
+            <mp-cell link hover url="/pages/home/home" value="关于新媒体"  style="font-size:30rpx;line-height:25%;">
+                <image slot="icon" src="../image/xinmeiti.jpg" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </mp-cell>
+        </mp-cells>
+</view>
+<view>
+  <view class="loginBtnView"> 
+  <button  class="logoutBtn" type="primary" bindtap="logout" >退出登录</button> 
+ </view>
+</view>
+</view>

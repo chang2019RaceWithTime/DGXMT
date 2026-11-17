@@ -1,0 +1,42 @@
+<!--pages/home/home.wxml-->
+<!-- <form >
+<button bindtap="chooseImage">姓名</button>
+</form> -->
+<view style="">
+<form bindsubmit="submit" >
+  <view class="page-section">
+    <view class="weui-cells__title">姓名</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  placeholder="请输入姓名"  name='name'/>
+      </view>
+    </view>
+  </view>
+ <!--账号-->
+
+ 
+ 
+ <!--密码-->
+  <view class="page-section">
+    <view class="weui-cells__title">学号</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  placeholder="请输入学号"  name='number'/>
+      </view>
+    </view>
+  </view>
+ 
+ <!--按钮-->
+ <view class="loginBtnView"> 
+  <button form-type="submit" class="loginBtn" type="primary" >上传图片</button> 
+ </view>
+</form> 
+
+
+<!-- <mp-form> -->
+
+  <!-- <mp-cells title="表单" footer="底部说明文字底部说明文字">
+                <mp-cell prop="qq" title="qq" ext-class="">
+                    <input bindinput="formInputChange" data-field="qq" class="weui-input" placeholder="请输入qq"/>
+  </mp-cell> -->
+<!-- </mp-form> --></view>

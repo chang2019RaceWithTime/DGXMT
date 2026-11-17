@@ -1,0 +1,88 @@
+/* pages/home/home.wxss */
+Page{
+  background-color: #efefef;
+}
+.card{
+  width: 96%;
+  margin-left: 2%;
+  background-color: #ffffff;
+  margin-top: 20rpx;
+ border-radius: 40rpx;    /* 变成圆弧状态 */
+  height: 450rpx;
+  font-size: 28rpx;
+}
+.card2{
+  width: 96%;
+  margin-left: 2%;
+  background-color: #ffffff;
+  margin-top: 20rpx;
+ border-radius: 40rpx;    /* 变成圆弧状态 */
+  height: 250rpx;
+  font-size: 28rpx;
+}
+.title{
+  height: 60rpx;
+  
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+.line{
+  height:4rpx;
+  width:100%;
+  background-color:#efefef;
+}
+
+.row{
+  width: 88%;
+  margin-left: 9%;
+  display: flex;
+  justify-content: space-around;
+  height: 194rpx;
+}
+.kbtable{margin-top: 24rpx;
+          height: 194rpx;
+          width: 22%;
+}
+.date{
+  margin-top: 24rpx;
+  height: 194rpx;
+  width: 22%;
+}
+.caibian{
+  margin-top: 24rpx;
+  height: 194rpx;
+  width: 22%;
+}
+.grades{
+  margin-top: 24rpx;
+  height: 194rpx;
+  width: 22%;
+}
+.exam{
+  margin-top: 24rpx;
+  height: 194rpx;
+  width: 22%;
+ 
+}
+/* .item{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /*margin-left: 30rpx;
+  margin-right: 30rpx;*/
+  /* margin-top: 24rpx; */
+/* } */ 
+/* .Img{
+  width: 94rpx;
+  height: 120rpx;
+  margin-bottom: 10rpx;
+} */
+.row2{
+  width: 88%;
+  margin-left: 5rpx;
+  display: flex;
+  height: 194rpx;
+}
+
+

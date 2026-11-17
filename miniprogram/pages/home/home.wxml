@@ -1,0 +1,85 @@
+
+<view class='card'>
+  <view class='title'>
+    <text style="margin-left:300rpx">组织工作</text>
+  </view>
+  <view class='line'></view>
+    <view class='row'>
+      <view class='excel' bindtap="Toexcel">
+        <view style="margin-top:35rpx;margin-right:30rpx"> <image class='Img' src='../image/6.png'  style="width:100rpx;height:90rpx;"></image></view>
+        <view style="margin-left:15rpx;font-size:23rpx;" > <text >采编表</text></view>
+      </view>
+      <view class='date' bindtap="Todate">
+      <view style="margin-left:5rpx;margin-top:5rpx"> <image class='itemImg' src='../image/2.png'  style="width:80rpx;height:100rpx" ></image></view>
+        <view style="margin-left:20rpx;font-size:23rpx;"> <text >日程</text></view>
+      </view>
+      <view class='caibian' bindtap="Tocaibian">
+        <view style="margin-left:15rpx"> <image class='itemImg' src='../image/3.png' style="width:100rpx;height:100rpx"></image></view>
+       <view style="margin-left:25rpx;font-size:23rpx;"> <text >采编会</text></view>
+      </view>
+      <view class='excel' bindtap="Toflag">
+        <view style="margin-top:25rpx;margin-left:30rpx;"> <image class='Img' src='../image/8.png'  style="width:120rpx;height:100rpx;"></image></view>
+        <view style="margin-left:45rpx;font-size:20rpx" > <text >带上国旗</text></view>
+        <view style="margin-left:55rpx;font-size:20rpx" > <text >看山河</text></view>
+      </view>
+      <view class='excel' bindtap="Toboard">
+        <view style="margin-top:40rpx;margin-left:35rpx"> <image class='Img' src='../image/9.png'  style="width:100rpx;height:80rpx;"></image></view>
+        <view style="margin-left:50rpx;margin-top:0rpx;font-size:23rpx;" > <text >留言板</text></view>
+      </view>
+     
+    </view>
+    <view class="row2">
+
+      <view class='excel' bindtap="Toemail">
+        <view style="margin-top:20rpx;margin-left:30rpx"> <image class='Img' src='../image/7.png'  style="width:160rpx;height:80rpx;"></image></view>
+        <view style="margin-left:65rpx;margin-top:0rpx;font-size:23rpx;" > <text >匿名信箱</text></view>
+      </view>
+    </view>
+</view>
+
+<view class='card2'>
+  <view class='title'>
+    <text style="margin-left:300rpx">学习事务</text>
+  </view>
+  <view class='line'></view>
+    <view class='row'>
+      <view class='kbtable'bindtap="Tokbtable" >
+        <image class='itemImg' src='../image/1.png'  style="width:100rpx;height:100rpx" ></image>
+        <view style="margin-top:0rpx;font-size:23rpx;margin-left:10rpx"> <text >课程表</text></view>
+      </view>
+      <view class='exam' bindtap="Toexam">
+        <view style="margin-top:20rpx"> <image class='Img' src='../image/5.png'  style="width:100rpx;height:80rpx;"></image></view>
+        <view style="margin-left:20rpx;font-size:23rpx;" > <text >考试</text></view>
+      </view>
+      <view class='jiwang' bindtap="Tojiwang">
+        <view style="margin-top:40rpx;margin-left:25rpx"> <image class='Img' src='../image/E.png'  style="width:60rpx;height:80rpx;"></image></view>
+        <view style="margin-left:7rpx;margin-top:0rpx;font-size:23rpx;" > <text  >级网通知</text></view>
+      </view>
+      <view class='grades' bindtap="Togrades">
+       <view style="margin-top:0rpx;margin-left:30rpx;"> <image class='Img' src='../image/4.png'  style="width:80rpx;height:100rpx;"></image></view>
+        <view style="margin-left:40rpx;font-size:23rpx;" > <text >成绩</text></view>
+      </view>
+
+     
+    </view>
+    <!-- <view class="row2">
+      <view class='excel' bindtap="Toexcel">
+        <view style="margin-top:20rpx;margin-left:30rpx"> <image class='Img' src='../image/6.png'  style="width:100rpx;height:80rpx;"></image></view>
+        <view style="margin-left:45rpx;font-size:23rpx;" > <text >采编表</text></view>
+      </view>
+      <view class='excel' bindtap="Toemail">
+        <view style="margin-top:20rpx;margin-left:10rpx"> <image class='Img' src='../image/7.png'  style="width:160rpx;height:80rpx;"></image></view>
+        <view style="margin-left:45rpx;margin-top:0rpx;font-size:23rpx;" > <text >匿名信箱</text></view>
+      </view>
+      <view class='excel' bindtap="Toflag">
+        <view style="margin-top:0rpx;margin-left:20rpx;"> <image class='Img' src='../image/8.png'  style="width:120rpx;height:100rpx;"></image></view>
+        <view style="margin-left:10rpx;margin-left:30rpx;font-size:20rpx" > <text >带上国旗</text></view>
+        <view style="margin-left:10rpx;margin-left:40rpx;font-size:20rpx" > <text >看山河</text></view>
+      </view>
+      <view class='excel' bindtap="Toboard">
+        <view style="margin-top:20rpx;margin-left:35rpx"> <image class='Img' src='../image/9.png'  style="width:100rpx;height:80rpx;"></image></view>
+        <view style="margin-left:50rpx;margin-top:0rpx;font-size:23rpx;" > <text >留言板</text></view>
+      </view>
+
+    </view> -->
+</view>

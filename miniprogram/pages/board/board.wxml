@@ -1,0 +1,14 @@
+<button  style="width:100%:;border-radius: 40rpx;margin-top:20rpx " type="primary" bindtap="add" >留言</button> 
+<view style="margin-top:50rpx">
+<view class='card' wx:for="{{comments}}" wx:key="{{index}}" >
+  <view class='head'> <view class="name"> {{item.name}}</view>
+  <view class="time">  {{item.time}}</view>
+    <!-- <image style="height:150rpx;width:100% " src='../image/head.png'></image> -->
+    <!-- <view style="height:40rpx"></view> -->
+    <view class="note">  <text>{{item.note}}</text></view>
+    </view>
+  
+  <!-- <view class='line'></view> -->
+
+</view>
+</view>

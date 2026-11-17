@@ -1,0 +1,15 @@
+<!--pages/grades/grades.wxml-->
+<view class="table">
+  <view class="tr1 bg-w">
+    <view class="th">课程</view>
+    <view class="th">学分</view>
+    <view class="th ">成绩</view>
+  </view>
+  <block wx:for="{{grades}}" wx:key="{{index}}">
+    <view class="tr" >
+      <view class="td">{{item.name}}</view>
+      <view class="td">{{item.xuefen}}</view>
+      <view class="td">{{item.number}}</view>
+    </view>
+  </block>
+</view>

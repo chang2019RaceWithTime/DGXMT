@@ -1,0 +1,15 @@
+<!--pages/jiwang/jiwang.wxml-->
+<view class="head">
+<view class="j20" bindtap="jiwang20"><image src='../image/EO20.png' ></image></view>
+<view class="j19" bindtap="jiwang19"><image src='../image/EO19.png' ></image></view>
+<view class="j18" bindtap="jiwang18"><image src='../image/EO18.png' ></image></view>
+<view class="j17" bindtap="jiwang17"><image src='../image/EO17.png' ></image></view>
+</view>
+<view style="margin-top:50rpx">
+<view class='card' wx:for="{{data}}" wx:key="{{index}}" style="color:{{colorArrays[index%9]}}">
+  <view class='row' data-href="{{item.href}}" bindtap="click" ><text>{{item.title}}</text>
+    </view>
+  <view class='line'></view>
+    <view class="name"> {{item.date}}</view>
+</view>
+</view>

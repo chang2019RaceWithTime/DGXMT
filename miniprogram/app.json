@@ -1,0 +1,49 @@
+{
+  "pages": ["pages/home/home",
+    "pages/exam/exam",
+    "pages/excel/excel",
+    "pages/grades/grades",
+    "pages/login/login",
+    "pages/kbtable/kbtable",
+    "pages/calendar/calendar",
+    "pages/flag/flag",
+    "pages/email/email",
+    "pages/board/board",
+    "pages/add/add",
+    "pages/jiwang/jiwang",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black" ,
+    "list": [{
+      "pagePath": "pages/home/home",
+      "iconPath": "/pages/image/首页.png",
+     "selectedIconPath":"/pages/image/首页.png",
+      "text": "首页"
+    }, 
+    {
+ 
+      "pagePath": "pages/login/login",
+      "iconPath": "/pages/image/我的.png",
+      "selectedIconPath":"/pages/image/我的.png",
+      "text": "登录"
+    }
+    ]
+  },
+  "useExtendedLib": {
+    "weui": true
+  }
+
+
+}

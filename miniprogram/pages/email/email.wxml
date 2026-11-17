@@ -1,0 +1,14 @@
+<form bindsubmit="submit" >
+  <view class="page-section">
+    <view class="weui-cells__title" >写下的内容会以匿名邮件的形式发送到主席邮箱</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input" >
+        <input class="weui-input"  placeholder="请写下对主席的意见"  name='note'/>
+      </view>
+    </view>
+  </view>
+ <!--按钮-->
+ <view class="loginBtnView"> 
+  <button form-type="submit" class="loginBtn" type="primary" style="margin-top:100rpx">发送</button> 
+ </view>
+</form> 
