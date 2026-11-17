@@ -2,7 +2,7 @@
 
 ## 界面预览
 
-![DGXMT 首页](docs/home-preview.jpg)
+![DGXMT 首页](docs/home-preview.png)
 
 ## 使用方法
 
@@ -33,5 +33,3 @@ python app.py
 | `DGXMT_SMTP_HOST`、`DGXMT_SMTP_PORT` | SMTP 服务地址和端口，端口默认 465 |
 | `DGXMT_SMTP_USER`、`DGXMT_SMTP_PASSWORD`、`DGXMT_MAIL_TO` | 发件邮箱、授权码和收件地址 |
 | `DGXMT_DATA_DIR` | 本地数据目录，默认使用仓库内的 `data/` |
-
-使用采编表或年级通知时，将 `采编会.xlsx` 或 `17.txt` 至 `20.txt` 放入数据目录。联调教务功能时，填写可用的教务地址并确认页面格式与后端解析逻辑匹配。
